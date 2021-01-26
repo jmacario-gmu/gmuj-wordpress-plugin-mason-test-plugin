@@ -18,4 +18,9 @@
 		die;
 	}
 
-
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/jmacario-gmu/gmuj-wordpress-plugin-mason-test-plugin/',
+	__FILE__,
+	'gmuj-wordpress-plugin-mason-test-plugin'
+);
