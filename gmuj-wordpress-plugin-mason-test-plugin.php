@@ -9,7 +9,7 @@
  * Author:            Jan Macario
  * Plugin URI:        https://github.com/jmacario-gmu/gmuj-wordpress-plugin-mason-test-plugin
  * Description:       Mason WordPress plugin used for testing purposes.
- * Version:           1.0.2
+ * Version:           1.0.3
  */
 
 // This is an unimportant change. This is supposed to be version 1.0.3, but I'm going to forget to modify the version number and commit the change and tag it. Will the auto update process make the update because it's a new tag, or will it not because it thinks the version is the same?
